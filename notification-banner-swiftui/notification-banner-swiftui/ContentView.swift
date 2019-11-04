@@ -21,7 +21,8 @@ struct ContentView: View {
                 VStack {
                     Text("Example of banners").font(.headline)
                     Text("Tap one of them to show banner in this scroll view").font(.subheadline)
-                }.padding()
+                }
+                .padding()
                 Divider()
                 ForEach(0..<allBanners.count) { index in
                     allBanners[index]

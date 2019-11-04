@@ -58,19 +58,16 @@ struct BannerView: ViewModifier {
     let action: (() -> Void)?
     
     func body(content: Content) -> some View {
-        ZStack(alignment: .top) {
+        VStack(spacing: 0) {
             if isPresented {
                 data.makeBanner(action: action)
                     .animation(.easeInOut)
                     .transition(AnyTransition.move(edge: .top).combined(with: .opacity))
-                    .zIndex(100)
                     .onTapGesture {
                         self.isPresented = false
                     }
             }
             content
-                .zIndex(10)
-                .offset(x: 0, y: isPresented ? 50 : 0) // To add if we want to move the list down
         }
     }
 }
