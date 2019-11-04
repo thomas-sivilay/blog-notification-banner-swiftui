@@ -13,6 +13,7 @@
 		E94DA5592362E2C6006BB4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94DA5582362E2C6006BB4E4 /* Assets.xcassets */; };
 		E94DA55C2362E2C6006BB4E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94DA55B2362E2C6006BB4E4 /* Preview Assets.xcassets */; };
 		E94DA55F2362E2C6006BB4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94DA55D2362E2C6006BB4E4 /* LaunchScreen.storyboard */; };
+		E9785FDF23700B8D00BD8BE0 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9785FDE23700B8D00BD8BE0 /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E94DA55B2362E2C6006BB4E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E94DA55E2362E2C6006BB4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E94DA5602362E2C6006BB4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9785FDE23700B8D00BD8BE0 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E94DA5522362E2C5006BB4E4 /* AppDelegate.swift */,
 				E94DA5542362E2C5006BB4E4 /* SceneDelegate.swift */,
 				E94DA5562362E2C5006BB4E4 /* ContentView.swift */,
+				E9785FDE23700B8D00BD8BE0 /* BannerView.swift */,
 				E94DA5582362E2C6006BB4E4 /* Assets.xcassets */,
 				E94DA55D2362E2C6006BB4E4 /* LaunchScreen.storyboard */,
 				E94DA5602362E2C6006BB4E4 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9785FDF23700B8D00BD8BE0 /* BannerView.swift in Sources */,
 				E94DA5532362E2C5006BB4E4 /* AppDelegate.swift in Sources */,
 				E94DA5552362E2C5006BB4E4 /* SceneDelegate.swift in Sources */,
 				E94DA5572362E2C5006BB4E4 /* ContentView.swift in Sources */,
